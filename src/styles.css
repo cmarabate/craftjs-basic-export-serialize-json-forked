@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.my-container {
+  border: 1px solid black;
+  min-height: 500px;
+}

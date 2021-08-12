@@ -1,0 +1,126 @@
+{
+  "ROOT": {
+    "type": { "resolvedName": "Container" },
+    "isCanvas": true,
+    "props": { "padding": 5, "background": "#eeeeee" },
+    "displayName": "ie",
+    "custom": {},
+    "hidden": false,
+    "nodes": [
+      "NwKQjKaAy",
+      "1BIpGv2s9",
+      "zPCAPe6AK",
+      "hb4yVFpCG",
+      "jxtMvzWdqr",
+      "y8pggMMbB"
+    ]
+  },
+  "1BIpGv2s9": {
+    "type": { "resolvedName": "Text" },
+    "props": { "text": "Hi", "fontSize": 20, "defaultText": "Hi world" },
+    "displayName": "Text",
+    "custom": {},
+    "hidden": false,
+    "parent": "ROOT"
+  },
+  "NwKQjKaAy": {
+    "type": { "resolvedName": "Button" },
+    "props": {
+      "size": "small",
+      "variant": "contained",
+      "color": "primary",
+      "text": "Click me"
+    },
+    "displayName": "Button",
+    "custom": {},
+    "hidden": false,
+    "parent": "ROOT",
+    "index": 0
+  },
+  "hb4yVFpCG": {
+    "type": { "resolvedName": "Container" },
+    "isCanvas": true,
+    "props": { "padding": 20 },
+    "displayName": "ie",
+    "custom": {},
+    "hidden": false,
+    "parent": "ROOT",
+    "nodes": ["AbH0Oc4xg"]
+  },
+  "y8pggMMbB": {
+    "type": { "resolvedName": "Card" },
+    "props": {},
+    "displayName": "Card",
+    "custom": {},
+    "hidden": false,
+    "parent": "ROOT",
+    "linkedNodes": { "text": "mXOZeMHPM", "buttons": "xZumyPk0BM" },
+    "index": 4
+  },
+  "mXOZeMHPM": {
+    "type": { "resolvedName": "CardTop" },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "ie",
+    "custom": {},
+    "hidden": false,
+    "parent": "y8pggMMbB",
+    "nodes": ["O8Go1akVmF", "dJlJHaeHV5"]
+  },
+  "O8Go1akVmF": {
+    "type": { "resolvedName": "Text" },
+    "props": { "text": "Only texts", "fontSize": 20 },
+    "displayName": "Text",
+    "custom": {},
+    "hidden": false,
+    "parent": "mXOZeMHPM"
+  },
+  "dJlJHaeHV5": {
+    "type": { "resolvedName": "Text" },
+    "props": { "text": "are allowed up here", "fontSize": 15 },
+    "displayName": "Text",
+    "custom": {},
+    "hidden": false,
+    "parent": "mXOZeMHPM"
+  },
+  "xZumyPk0BM": {
+    "type": { "resolvedName": "CardBottom" },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "ie",
+    "custom": {},
+    "hidden": false,
+    "parent": "y8pggMMbB",
+    "nodes": []
+  },
+  "jxtMvzWdqr": {
+    "type": { "resolvedName": "Button" },
+    "props": {
+      "size": "small",
+      "variant": "contained",
+      "color": "primary",
+      "text": "Only buttons down here"
+    },
+    "displayName": "Button",
+    "custom": {},
+    "hidden": false,
+    "parent": "ROOT",
+    "index": 3
+  },
+  "zPCAPe6AK": {
+    "type": { "resolvedName": "Text" },
+    "props": { "text": "Hi", "fontSize": 20, "defaultText": "Hi world" },
+    "displayName": "Text",
+    "custom": {},
+    "hidden": false,
+    "parent": "ROOT"
+  },
+  "AbH0Oc4xg": {
+    "type": { "resolvedName": "Text" },
+    "props": { "text": "Hi", "fontSize": 20, "defaultText": "Hi world" },
+    "displayName": "Text",
+    "custom": {},
+    "hidden": false,
+    "parent": "hb4yVFpCG"
+  }
+}
